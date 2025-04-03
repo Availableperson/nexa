@@ -122,7 +122,8 @@
     confirmBtn.addEventListener("click", async () => {
       status.textContent = "📡 Отправка данных...";
       try {
-        const res = await fetch("https://nexa-hvic.onrender.com/ride", {
+        const res = await fetch("fetch("https://nexa-hvic.onrender.com/ride", {
+", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
