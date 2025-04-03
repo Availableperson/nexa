@@ -1,0 +1,3 @@
+aiohttp
+aiohttp_middlewares
+aiogram==3.4
